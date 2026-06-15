@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Projects - Jingyang Chen</title>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Jingyang Chen">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,300;0,400;0,700;1,300;1,400&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+  <article>
+    <header>
+      <div class="navMenu" id="mynavMenu">
+        <a href="index.html" class="fixleft" title="home" style="font-size:26px;"><b>Jingyang Chen</b></a>
+        <a href="Jingyang_Chen_CV.pdf">CV</a>
+        <a href="index.html">Home</a>
+        <a href="javascript:void(0);" class="icon" onclick="barsIcon()" title="menu">
+          <i class="fa-solid fa-bars"></i>
+        </a>
+      </div>
+    </header>
+
+    <div class="section-title" style="padding-bottom: 80px;">
+      <div class="header-intro">
+        <div class="slide-module"><div class="block-text">
+          <br>
+          <div class="secTitle" style="padding-left:0;">Projects</div>
+          <br>
+          <p>This page is reserved for future research projects. It is not linked from the main navigation yet.</p>
+          <br>
+          <p><a href="index.html">&#8592; Back to home</a></p>
+          <br>
+        </div></div>
+      </div>
+    </div>
+
+    <div class="section-footer">
+      <div class="social-links" id="social-center">
+        <a href="https://www.linkedin.com/in/jingyang-chen-965132405/" class="fa-icon-link" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://github.com/jingyang2021" class="fa-icon-link" title="GitHub"><i class="fa-brands fa-github"></i></a>
+        <a href="Jingyang_Chen_CV.pdf" class="fa-icon-link" title="Curriculum Vitae"><i class="fa-regular fa-file-lines"></i></a>
+        <a href="mailto:jc6908@columbia.edu" class="fa-icon-link" title="Email"><i class="fa-regular fa-envelope"></i></a>
+      </div>
+      <div class="hline text-center">
+        <h4 class="faded"><font color=#c6c6c6>______________________________</font></h4>
+      </div>
+      <div class="copyright_text text-center">
+        Copyright &copy; Jingyang Chen
+      </div>
+    </div>
+
+    <a class="gotop" href="#" id="myGotop"></a>
+  </article>
+
+  <script type="text/javascript" src="assets/js/jquery.js"></script>
+  <script type="text/javascript">
+  (function($) {
+    $(document).ready(function(){
+      $('#mynavMenu').fadeIn(0);
+      $(window).scroll(function(){
+        if ($(this).scrollTop() > 0) {
+          $('#mynavMenu').fadeOut(300);
+        } else {
+          $('#mynavMenu').fadeIn(300);
+        }
+      });
+      $('#myGotop').fadeOut(100);
+      $(window).scroll(function(){
+        if ($(this).scrollTop() > 100) {
+          $('#myGotop').fadeIn(300);
+        } else {
+          $('#myGotop').fadeOut(300);
+        }
+      });
+    });
+  })(jQuery);
+  </script>
+  <script>
+  function barsIcon() {
+    var nav = document.getElementById("mynavMenu");
+    if (nav.className === "navMenu") {
+      nav.className += " responsive";
+    } else {
+      nav.className = "navMenu";
+    }
+  }
+  </script>
+</body>
+</html>

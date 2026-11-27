@@ -1,181 +1,93 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <!-- metadata -->
-  <title>Jingyang Chen</title>
-  <meta http-equiv="content-type" content="text/html; charset=utf-8" >
-  <meta name="description" content="Jingyang Chen — Ph.D. Student at Columbia University">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jingyang Chen – Ph.D. Student, Columbia Chemistry</title>
+  <meta name="description" content="Jingyang Chen is a Ph.D. student in the Department of Chemistry at Columbia University, working on stimulated Raman scattering microscopy and machine learning.">
   <meta name="author" content="Jingyang Chen">
-
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,300;0,400;0,700;1,300;1,400&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
-
-  <link rel="stylesheet" type="text/css" href="assets/css/main.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Jingyang Chen">
+  <meta property="og:description" content="Ph.D. Student, Department of Chemistry, Columbia University">
+  <meta property="og:image" content="https://jingyang2021.github.io/images/profile.jpg">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%231d4f91'/%3E%3Ctext x='32' y='42' font-family='Helvetica,Arial,sans-serif' font-size='28' font-weight='600' fill='white' text-anchor='middle'%3EJC%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
+  <main>
 
-  <article>
-    <header>
-      <div class="navMenu" id="mynavMenu">
-        <a href="index.html" class="fixleft" title="home" style="font-size:26px;"><b>Jingyang Chen</b></a>
-        <a href="Jingyang_Chen_CV.pdf">CV</a>
-        <a href="index.html">Home</a>
-        <a href="javascript:void(0);" class="icon" onclick="barsIcon()" title="menu">
-          <i class="fa-solid fa-bars"></i>
-        </a>
+    <header class="intro">
+      <img src="images/profile.jpg" alt="Portrait of Jingyang Chen" width="168" height="168">
+      <div>
+        <h1>Jingyang Chen</h1>
+        <p class="role">Ph.D. Student, Department of Chemistry<br>Columbia University</p>
+        <nav class="links" aria-label="Contact and profiles">
+          <a href="mailto:jc6908@columbia.edu">Email</a>
+          <a href="Jingyang_Chen_CV.pdf">CV</a>
+          <a href="https://github.com/jingyang2021">GitHub</a>
+          <a href="https://www.linkedin.com/in/jingyang-chen-965132405/">LinkedIn</a>
+        </nav>
       </div>
     </header>
 
-    <div class="section-title text-center">
-      <div class="column-center">
-        <div class="header-column1 text-center">
-          <div class="image_carousel">
-            <img id="profile-pic" src="" alt="Jingyang Chen" width="300" height="300" class="rounded-corners" style="object-fit: cover; object-position: center;">
-            <script>
-              (function(){
-                var p = ['images/profile/jingyang_profile_01.jpg'];
-                document.getElementById('profile-pic').src = p[Math.floor(Math.random() * p.length)];
-              })();
-            </script>
-          </div>
-        </div>
-        <div class="header-column2">
-          <br>
-          <div class="header-name text-center">Jingyang Chen</div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="column-center">
-          <div class="header-column2">
-            <div class="header-bio text-center">
-              <br>
-              <h5 style="color:#00356b"><b>Ph.D. Student at Columbia University</b></h5>
-              <h1 class="tags"> __________ </h1>
-              <br>
-            </div>
-            <div class="social-links" id="social-center">
-              <a href="https://www.linkedin.com/in/jingyang-chen-965132405/" class="fa-icon-link" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
-              <a href="https://github.com/jingyang2021" class="fa-icon-link" title="GitHub"><i class="fa-brands fa-github"></i></a>
-              <a href="Jingyang_Chen_CV.pdf" class="fa-icon-link" title="Curriculum Vitae"><i class="fa-regular fa-file-lines"></i></a>
-              <a href="mailto:jc6908@columbia.edu" class="fa-icon-link" title="Email"><i class="fa-regular fa-envelope"></i></a>
-            </div>
-            <br><br>
-            <p>jc6908 at columbia DOT edu</p>
-          </div>
-        </div>
-      </div>
+    <section id="about">
+      <h2>About</h2>
+      <p>I am a Ph.D. student in the <a href="https://www.chem.columbia.edu/">Department of Chemistry</a> at Columbia University, advised by <a href="https://www.chem.columbia.edu/content/wei-min">Prof. Wei Min</a>.</p>
+      <p>I received my B.S. in Chemistry from <a href="https://english.pku.edu.cn/">Peking University</a> in 2026, where I worked on ultrafast spectroscopy of organic dyes and ultrafast optical instrumentation with <a href="https://www.chem.pku.edu.cn/zhenggroup/">Prof. Junrong Zheng</a>.</p>
+      <p>Outside the lab, I enjoy soccer, fitness training, and tennis, often with a curiosity about the exercise physiology behind them.</p>
+    </section>
 
-      <div class="hline text-center" id="overview">
-        <h3 class="faded"> <font color=#c6c6c6>______________________________</font> </h3>
-      </div>
+    <section id="research">
+      <h2>Research Interests</h2>
+      <p>I am interested in combining stimulated Raman scattering (SRS) microscopy with machine learning, in particular cross-modal prediction and generation: inferring the results of other physical-chemical experimental techniques from optical measurements. My long-term goal is an autonomous SRS imaging platform that interprets its own images and adjusts the optics and sample position without manual intervention, drawing on AI agents and ideas from embodied intelligence. More broadly, my interests include nonlinear optical techniques and the biophysical questions they can address.</p>
+    </section>
 
-      <div class="header-intro">
-        <div class="slide-module"><div class="block-text">
-          <br>
-          <p>I will join the <a href="https://www.chem.columbia.edu/">Department of Chemistry</a> at Columbia University as an incoming Ph.D. student, advised by <a href="https://www.chem.columbia.edu/content/wei-min">Prof. Wei Min</a>.</p>
-          <br>
-          <p>I received my B.S. in Chemistry from the College of Chemistry and Molecular Engineering at <a href="https://english.pku.edu.cn/">Peking University</a> in 2026, where I worked on ultrafast spectroscopy of organic dyes and ultrafast optical instrumentation under the supervision of <a href="https://www.chem.pku.edu.cn/zhenggroup/">Prof. Junrong Zheng</a>.</p>
-          <br>
-          <p>I am broadly interested in nonlinear spectroscopy and microscopy, AI-enabled bioimaging, and ultrafast optics. My long-term goal is to develop and apply advanced optical and computational tools to better understand chemical and biological dynamics.</p>
-          <br>
-          <p>Outside the lab, I enjoy soccer, fitness training, and tennis, often with a curiosity about the exercise physiology behind them.</p>
-          <br>
-        </div></div>
-      </div>
-    </div>
+    <section id="publications">
+      <h2>Publications</h2>
+      <ol class="pubs">
+        <li>
+          <span class="pub-title">Fluorescence Switching via Solvent-Induced State Inversion of 4-Formylindole</span><br>
+          Qirui Yu<sup>⊥</sup>, <strong>Jingyang Chen</strong><sup>⊥</sup>, Jianwei Zou, Shufan Xiao, Xinmao Li, Jianxin Guan, Zhihao Yu, and Junrong Zheng<sup>*</sup><br>
+          <span class="venue">Submitted to <em>The Journal of Physical Chemistry A</em>, 2026.</span>
+        </li>
+      </ol>
+      <p class="note"><sup>⊥</sup> Equal contribution &nbsp;·&nbsp; <sup>*</sup> Corresponding author</p>
+    </section>
 
-    <div class="section-two">
-      <div class="slide-module text-center"><div class="secTitle">News</div></div>
-      <div class="header-intro"><div class="slide-module"><div class="block-text">
-        <br>
-        <table style="width:100%; border-collapse:collapse; font-size:15px; line-height:28px;">
-          <tr>
-            <td style="white-space:nowrap; padding-right:40px; color:#888; font-family:'Open Sans',sans-serif; vertical-align:top;">[2026.06]</td>
-            <td>I successfully defended my undergraduate thesis at Peking University. I am grateful to <a href="https://www.chem.pku.edu.cn/zhenggroup/">Prof. Junrong Zheng</a> and all group members for their guidance and support throughout my undergraduate research.</td>
-          </tr>
-        </table>
-        <br>
-      </div></div></div>
-    </div>
+    <section id="teaching">
+      <h2>Teaching</h2>
+      <ul class="entries">
+        <li>
+          <span class="when">Fall 2026 – Spring 2027</span>
+          <span class="what">Teaching Assistant, UN1507 Intensive General Chemistry Laboratory, Columbia University (with Prof. Luis Avila)</span>
+        </li>
+      </ul>
+    </section>
 
-    <div class="section-footer">
-      <div class="social-links" id="social-center">
-        <a href="https://www.linkedin.com/in/jingyang-chen-965132405/" class="fa-icon-link" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
-        <a href="https://github.com/jingyang2021" class="fa-icon-link" title="GitHub"><i class="fa-brands fa-github"></i></a>
-        <a href="Jingyang_Chen_CV.pdf" class="fa-icon-link" title="Curriculum Vitae"><i class="fa-regular fa-file-lines"></i></a>
-        <a href="mailto:jc6908@columbia.edu" class="fa-icon-link" title="Email"><i class="fa-regular fa-envelope"></i></a>
-      </div>
-      <div class="hline text-center">
-        <h4 class="faded"> <font color=#c6c6c6>______________________________</font> </h4>
-      </div>
-      <div class="copyright_text text-center">
-        Copyright &copy; Jingyang Chen
-      </div>
-    </div>
+    <section id="awards">
+      <h2>Awards</h2>
+      <ul class="entries">
+        <li>
+          <span class="when">2026</span>
+          <span class="what">Dean’s Fellowship, Graduate School of Arts and Sciences, Columbia University</span>
+        </li>
+        <li>
+          <span class="when">2020</span>
+          <span class="what">Silver Medal, Chinese Chemistry Olympiad, Chinese Chemical Society</span>
+        </li>
+      </ul>
+    </section>
 
-    <a class="gotop" href="#" id="myGotop"></a>
+    <section id="contact">
+      <h2>Contact</h2>
+      <p><a href="mailto:jc6908@columbia.edu">jc6908@columbia.edu</a><br>
+      Department of Chemistry, Columbia University, New York, NY</p>
+    </section>
 
-  </article>
+    <footer>
+      Last updated: November 2026
+    </footer>
 
-  <script type="text/javascript" src="assets/js/jquery.js"></script>
-  <script type="text/javascript">
-  (function($) {
-      $(document).ready(function(){
-          $('#mynavMenu').fadeIn(0);
-          $(window).scroll(function(){
-              if ($(this).scrollTop() > 0) {
-                  $('#mynavMenu').fadeOut(300);
-              } else {
-                  $('#mynavMenu').fadeIn(300);
-              }
-          });
-          $('#myGotop').fadeOut(100);
-          $(window).scroll(function(){
-              if ($(this).scrollTop() > 100) {
-                  $('#myGotop').fadeIn(300);
-              } else {
-                  $('#myGotop').fadeOut(300);
-              }
-          });
-      });
-      $.fn.viewed = function(partial) {
-        var upper = $(this).offset().top,
-            lower = upper + $(this).height(),
-            viewUpper = partial === true ? lower : upper,
-            viewLower = partial === true ? upper : lower;
-        return ((viewLower <= $(window).scrollTop() + $(window).height()) && (viewUpper >= $(window).scrollTop()));
-      };
-  })(jQuery);
-  </script>
-  <script>
-  function barsIcon() {
-    var nav = document.getElementById("mynavMenu");
-    if (nav.className === "navMenu") {
-      nav.className += " responsive";
-    } else {
-      nav.className = "navMenu";
-    }
-  }
-  </script>
-  <script type="text/javascript">
-  $(".slide-module").each(function(i, s) {
-    if ($(s).viewed(true)) {
-      $(s).addClass("viewed");
-    }
-  });
-  $(window).scroll(function(event) {
-    $(".slide-module").each(function(i, s) {
-      if ($(s).viewed(true)) {
-        $(s).addClass("slide");
-      }
-    });
-  });
-  </script>
-
+  </main>
 </body>
 </html>
